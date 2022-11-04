@@ -2,7 +2,7 @@
 
 namespace Mango.Web.Services.IServices
 {
-    public interface IProductServices
+    public interface IProductService
     {
         Task<T> GetAllProductsAsync<T>();
 
