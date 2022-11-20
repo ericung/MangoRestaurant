@@ -50,7 +50,7 @@ namespace Mango.Services.Identity
                         IdentityServerConstants.StandardScopes.Email,
                         "mango"
                     }
-
+                }
             };
     }
 }
