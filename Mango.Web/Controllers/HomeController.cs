@@ -23,6 +23,15 @@ namespace Mango.Web.Controllers
             return View();
         }
 
+        public IActionResult Login()
+        {
+            return RedirectToAction(nameof(Index));
+        }
+        public IActionResult Logout()
+        {
+            return SignOut("Cookies","oidc");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
