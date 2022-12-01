@@ -1,5 +1,4 @@
-﻿using Mango.Services.ProductAPI.Models;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mango.Services.ShoppingCartAPI.Models
