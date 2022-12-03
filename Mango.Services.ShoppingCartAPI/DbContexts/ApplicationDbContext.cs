@@ -10,9 +10,9 @@ namespace Mango.Services.ProductAPI.DbContexts
 
         }
 
-        public DbSet<Product> Product { get; set; }
+        public DbSet<Product> Products { get; set; }
 
-        public DbSet<CartHeader> CartHeader { get; set; }
+        public DbSet<CartHeader> CartHeaders { get; set; }
 
         public DbSet<CartDetails> CartDetails { get; set; }
     }
