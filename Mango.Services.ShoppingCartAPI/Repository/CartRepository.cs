@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Mango.Services.ProductAPI.DbContexts;
+using Mango.Services.ShoppingCartAPI.DbContexts;
 using Mango.Services.ShoppingCartAPI.Models;
 using Mango.Services.ShoppingCartAPI.Models.Dto;
 using Microsoft.EntityFrameworkCore;
